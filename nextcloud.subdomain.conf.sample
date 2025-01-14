@@ -1,4 +1,4 @@
-## Version 2024/07/16
+## Version 2025/01/14
 # make sure that your nextcloud container is named nextcloud
 # make sure that your dns has a cname set for nextcloud
 # assuming this container is called "swag", edit your nextcloud container's config
@@ -41,5 +41,6 @@ server {
 
         # Disable proxy buffering
         proxy_buffering off;
+        proxy_request_buffering off;
     }
 }
